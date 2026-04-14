@@ -12,11 +12,11 @@ function Exam() {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <h1>Exam Page</h1>
+                <h1 className='bg-blue-300'>Exam Page</h1>
                 <label>enter your name</label><br />
                 <input type="text" value={name} onChange={(e) => setName(e.target.value)} autoFocus />
 
-                <button type="submit">OK</button>
+                <button type="submit" className='bg-gray-500 ml-2 rounded'>OK</button>
             </form>
 
 

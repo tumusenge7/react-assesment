@@ -6,9 +6,9 @@ import Aboutus from './Aboutus'
 import Exam from './Exam'
 function App() {
   return (
-    <div>
+    <div >
       <BrowserRouter>
-        <nav>
+        <nav className=' flex gap-4'>
           <Link to='/'>Home</Link>
           <Link to='/modules'>Modules</Link>
           <Link to='/exam'>Exam</Link>

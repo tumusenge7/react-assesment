@@ -5,7 +5,7 @@ function Aboutus() {
     return (
         <div>
             <p>Likes:{count}</p>
-            <button onClick={(() => setCount(count + 1))}> click to like</button>
+            <button onClick={(() => setCount(count + 1))} className='bg-blue-700 rounded text-white'> click to like</button>
         </div>
     )
 }
